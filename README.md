@@ -6,7 +6,7 @@
 
 Yet another JavaScript Development Environment
 
-## Setup components
+## Development components & tools
 
 - editorconfig (editor configuration)
 - npm (package management)
@@ -25,4 +25,18 @@ Yet another JavaScript Development Environment
 - json-schema-faker (mock schema)
 - json-server (mock server)
 
-# Production build
+## Production components & tools
+
+- webpack (sourcemaps)
+- webpack UglifyJsPlugin (minification)
+- webpack DedupeJsPlugin (remove duplications)
+- process.env.NODE_ENV = 'production'
+- npm build script (build dist folder)
+- express (serve/test production like static content)
+- gzip (serving compressed artifacts)
+- webpack HtmlWebpackPlugin (html generation and dependency injection)
+- webpack (bundle splitting)
+- webpack WebpackMd5Hash (cache busting)
+- track.js (error logging)
+- surge.sh (static UI web publishing)
+- heroku (api hosting)
